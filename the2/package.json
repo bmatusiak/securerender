@@ -1,0 +1,13 @@
+{
+  "name": "securerender",
+  "version": "0.2022.0611",
+  "description": "spy somewhere else",
+  "author": "ERA",
+  "scripts": {
+    "build": "browserify ./src -t brfs --node -o ./enclave.js"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "brfs": "^2.0.2"
+  }
+}
